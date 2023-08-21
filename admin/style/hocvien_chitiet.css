@@ -1,0 +1,49 @@
+html{
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.form{
+ 	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.form form{
+	border: 1px solid #3da14f;
+	padding: 100px;
+	border-radius: 5pt;
+	height: 650px;
+}
+.form .form-group{
+	margin-top: 10px;
+}
+.form label{
+	margin-bottom: 10px;
+}
+.pdgv_h1{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #3da14f;
+}
+.pdgv_chitiet input{
+	width: 500px;
+}
+.btn_quaylai{
+	padding: 20px 80px;
+	font-size: 13pt;
+	margin-left: 40px;
+	margin-bottom: 100px;
+	background-color: #3da14f;
+	color: white;
+	border-radius: 5pt;
+	border-color: #3da14f;  
+}
+.btn_quaylai:hover{
+	background-color: #4bc761;
+}

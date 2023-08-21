@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*ul{
+	list-style: none;
+}*/
+
+a{
+	text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+
+html{
+  box-sizing: border-box;
+  
+}
+
+header{
+/*	position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #65af54;
+	padding: 10px 0px;
+	background: white;
+}
+img{
+	height: 50px;
+}
+
+#content{
+	margin: 120px 300px;
+	
+}
+.content__doimatkhau{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.content__doimatkhau .form-group{
+	margin-bottom: 20px;
+}
+.content__doimatkhau label{
+	margin-bottom: 20px;
+	font-size: 13pt;
+	font-weight: bold;
+}
+.content__doimatkhau .form-group input[type="submit"]{
+	font-size: 13pt;
+}
+.content__doimatkhau .form-group input[type="submit"]:hover{
+	color: #ffffff;
+	background-color: var(--green-color);
+}

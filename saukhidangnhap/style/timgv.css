@@ -1,0 +1,732 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #65af54;
+    padding: 10px 0px;
+    background: white;
+    z-index: 3;
+}
+/*header.sticky{
+    background: #566a82;
+    color: black;
+    opacity: 0.9;
+}*/
+.container{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.menu .nav{
+    display: flex;
+}
+.menu .nav .nav-link{
+    text-transform: uppercase;
+    padding: 10px 10px;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+.sub-menu{
+    display: none;
+    background: white;
+    border-radius: 10px;
+}
+
+.sub-menu a{
+    color: black;
+    font-weight: bold;
+}
+.sub-menu li{
+    border-bottom: 1px solid #65af54;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    min-width: 250px;
+    display: block;
+    line-height: 30px;
+}
+
+
+.menu .nav .nav-item:hover .sub-menu {
+    position: absolute;
+    display: block;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    background-color: #f9f9fc;
+
+}
+.logo{
+    height: 50px;
+}
+
+
+#content{
+    margin-top: 195px; 
+}
+
+
+
+.slogan{
+    background-image: url(https://tmarket.edu.vn/images/Group71.png);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.slogan label{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.search_teacher-container {
+    margin-top: 101px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search_teacher {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 92px;
+    width: 960px;
+    padding: 22px 40px;
+}
+.search_tc{
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    /* padding: 0 30px; */
+    height: 48px;
+    line-height: 48px;
+    text-decoration: none;
+    color: rgb(51,51,51 );
+    border-radius: 10px;
+    border: 1px solid rgb(174,174,174);
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    width: 420px;
+}
+
+.search-form{
+    display: flex;
+}
+.submit {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #65af54;
+    color: #fff;
+}
+.submit:hover{
+    background-color: #008943;
+    cursor: pointer;
+    color: #fff;
+}
+
+.search-icon{
+    position: absolute;
+    top: 14px;
+    color: rgb(51,51,51 );
+    font-size: 18px;
+}
+
+.search_tc1{
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 30px;
+    height: 48px;
+    line-height: 48px;
+    text-decoration: none;
+    color: rgb(51,51,51 );
+    border-radius: 10px;
+    border: 1px solid rgb(174,174,174);
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+}
+
+.search_tc_input {
+    margin-left: 20px;
+    outline: blue;
+    border: none;
+    height: 43px;
+    width: 100%;
+    padding: 0px 155px 0 0;
+    border-radius: 10px;
+}
+.contry,
+.price,
+.typetc,
+.category{
+    position: relative;
+}
+
+
+.contry:hover .dropdown,
+.price:hover .dropdown,
+.typetc:hover .dropdown,
+.category:hover .dropdown{
+    display: block;
+}
+
+.dropdown{
+    position: absolute;
+    background-color: #fff;
+    width: 366px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+    border: 1px solid #ebebeb;
+    top: 60px;
+    display: none;
+    z-index: 2;
+}
+
+.dropdown::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: -16px;
+    left: 0;
+    /* background-color: #000; */
+}
+
+.dropdown-item{
+    padding: 15px 10px;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+}
+
+
+.dropdown-item_cb{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+
+.dropdown-btn{
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.dropdown-btn_delete,
+.dropdown-btn_apply{
+    background-color:#65af54;
+    line-height: 44px;
+    color: #fff;
+    font-weight: bold;
+    width: 49%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown-btn_delete:hover,
+.dropdown-btn_apply:hover{
+    background-color: #3c9b27;
+}
+
+
+
+/* ------------------Content -------------- */
+
+.content{
+    padding: 40px;
+    background-color: #f9f9fc;
+}
+.content_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content_title{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content_title-text{
+    font-size: 21px;
+}
+
+.content_title-quantity{
+    background: rgba(101, 175, 84, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    color: #65af54;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.content-title2{
+    background-image: url("https://tmarket.edu.vn/images/MaskGrouptimgiaovien.png");
+    padding: 20px;
+    background-color: #faf8eb;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content_title-desc{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #878787;
+}
+
+.content_card{
+    height: 368px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+
+.content_card-info{
+    width: 456px;
+}
+
+.content_card-info_tc{
+    display: flex;
+}
+
+.content_card-info_tc1{
+    width: 140px;
+}
+
+.content_card-img{
+    background-image: url(https://storage.googleapis.com/tmarketeduvn/attachments/16757808359921.jpg);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.content_card-add{
+    font-size: 13px;
+    width: 140px;
+    text-align: center;
+    margin: 2px 0 8px 0;
+}
+
+.content_card-sub{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #6eb54d;
+    height: 50px;
+    width: 140px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content_card-sub:hover{
+    background-color: #3c9b27 ;
+}
+
+
+.content_card-info_tc2{
+    padding-left: 20px;
+    flex: 1;
+}
+
+.tc_name a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+.tc_desc{
+    font-size: 14px;
+}
+
+.tc_desc span{
+    display: block;
+    margin: 10px 0;
+}
+
+
+.tc_course{
+    display: flex;
+}
+
+.course{
+    flex: 1;
+}
+.student{
+    width: 60px;
+}
+
+.content_card-info-price{
+    display: flex;
+    margin-top: 24px;
+}
+.tc_label-time ,
+.course_label,
+.student_label{
+    color: #878787;
+    margin: 15px 0 5px 0;
+    font-size: 12px;
+}
+
+.tc_time,
+.course_value,
+.student_value,
+.price_trial-value,
+.price_ofc-value{
+    font-weight: bold;
+    color: #6eb54d;
+}
+
+.price_ofc{
+    width: 145px;
+}
+.price_trial{
+    flex: 1;
+}
+.price_trial-label,
+.price_ofc-lable{
+    margin-bottom: 8px;
+}
+
+.content_card-detail{
+    flex: 1;
+    position: relative;
+}
+
+.content_card-detail::before{
+    left: 30px;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid #e5e5e5;
+}
+
+.card_detail-list{
+    list-style: none;
+    display: flex;
+    padding-left: 60px;
+    position: relative;
+}
+
+.card_detail-list a{
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+}
+
+.card_detail-list .dong {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 3px;
+    border-radius: 15px;
+    background-color: #65af54;
+    transition: all 0.2s ease;
+    top: 20px;
+}
+
+.card_detail-item{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #999;
+}
+.card_detail-item.active{
+    color: #65af54;
+}
+
+.card_detail-item:hover{
+    color: #65af54;
+}
+
+.tab-pane{
+    display: none;
+}
+
+.tab-pane.active{
+    display: block;
+}
+.tab-content{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+.video{
+    height: 294px;
+    width: 642px;
+    border: none;
+}
+
+.table-date{
+    text-align: right;
+}
+
+.table-time{
+    text-align: left;
+}
+
+th, td.active{
+    padding: 5px 10px;
+    background-color: #65af54;
+}
+
+
+/* --------------INSTANT---------------- */
+
+.instant{
+    height: 580px;
+    width: 1200px;
+    background-image: url(/img/instant.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.instant-title{
+    padding: 20px 0;
+    color: #fff;
+    border-bottom: 1px solid#aeaeae;
+}
+
+.instant-title_main{
+    font-size:32px;
+}
+
+.instant-title_desc{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.instant-title_icon{
+    font-size: 20px;
+}
+
+
+.show_more{
+    margin: 0px auto;
+}
+
+.btn_more{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #6eb54d;
+    height: 50px;
+    width: 300px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px auto;
+}
+
+.btn_more:hover{
+    background-color:#3c9b27;
+    color: #fff;
+}
+
+/* ------------------HỌC NGAY------------------- */
+
+.dsgv{
+    height: 580px;
+    width: 1200px;
+    background-image: url(/img/instant.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.dsgv .bg{
+    width: 1200px;
+    height: 800px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    
+}
+.dsgv .tgv{
+    padding: 20px;
+    color: white;
+}
+
+.tgv-title{
+    font-size: 32px;
+}
+
+.tgv-desc{
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.dsgv .gv{
+    padding-top: 30px;
+    border-top: 2px solid #b1d2c7; 
+}
+
+
+.dsgv .gv .giaovien{
+    background-color: #fafafc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 380px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.gv-header{
+    display: flex;
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+
+.gv-header_desc{
+    margin-left: 20px;
+}
+
+.dsgv .gv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dsgv .gv .giaovien{
+    padding: 20px;
+}
+.dsgv{
+    font-family: "Lexend" !important;
+}
+
+.giaovien-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.giaovien-detail_right{
+    text-align: right;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.giaovien-detail_right,
+.giaovien-detail_left{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.giaovien-detail_right .price,
+.giaovien-detail_left .price{
+    color: red;
+}
+
+.dsgv img{
+    border-radius: 30px;
+}
+.dsgv h7{
+    font-size: 14pt;
+}
+
+.dsgv h6{
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.dsgv .gv .giaovien li{
+    font-size: 14pt;
+}
+
+
+
+.dsgv .product__pagination {
+    position: absolute;
+    padding-top: 25px;
+    text-align: center;
+    margin: 18px 0 18px -90px;
+    width: 100%;
+}
+
+.dsgv .product__pagination a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #008943;
+    height: 30px;
+    width: 30px;
+
+    border: 1px solid transparent; /*transparent: trong suốt;*/
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.dsgv .product__pagination a.active {
+    border-color: #008943;
+}
+
+.dsgv .product__pagination a:hover {
+    border-color: #008943;
+}
+img{
+    height: 50px;
+}
+
+/* ------------------- */

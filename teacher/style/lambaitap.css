@@ -1,0 +1,22 @@
+.question{
+    margin-bottom: 30px;
+}
+
+.submit{
+    align-items: center;
+    display: flex;
+}
+
+.btn-submit{
+    background-color: #65af54;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+}
+
+.btn-submit:hover{
+    background-color: #4a9e37;
+    color: #fff;
+}

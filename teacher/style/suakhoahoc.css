@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*ul{
+	list-style: none;
+}*/
+
+a{
+	text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+
+html{
+  box-sizing: border-box;
+  
+}
+
+header{
+/*	position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #65af54;
+	padding: 10px 0px;
+	background: white;
+}
+img{
+	height: 50px;
+}
+
+#content{
+	font-size: 13pt;
+	margin: 100px 200px;
+}
+#content h1{
+	margin-top: 150px;
+}
+#content .chitiet__suakhoahoc .form-group{
+	margin: 30px 100px;
+}
+#content .chitiet__suakhoahoc .form-group label{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+#content .chitiet__suakhoahoc .chitiet__hocphidong span{
+	position: absolute;
+	margin-top: 54px;
+	margin-left: 760px;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+#content .chitiet__suakhoahoc .chitiet__btn{
+	background-color: var(--green-color);
+	color:#ffffff;
+	padding: 10px 0;
+	font-size: 14pt;
+}
+#content .chitiet__suakhoahoc .chitiet__btn:hover{
+	color:#52dd88;
+}

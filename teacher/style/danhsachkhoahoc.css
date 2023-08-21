@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*ul{
+	list-style: none;
+}*/
+
+a{
+	text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+
+html{
+  box-sizing: border-box;
+  
+}
+
+header{
+/*	position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #65af54;
+	padding: 10px 0px;
+	background: white;
+}
+img{
+	height: 50px;
+}
+#content{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 14pt;
+	padding-bottom: 128px;
+}
+#content .content__title{
+	margin-top: 100px;
+	font-weight: bold;
+}
+#content .table-inverse .khoahoc label{
+	margin: 10px 0;
+}
+
+#content .table-inverse .khoahoc span{
+	font-weight: bold;
+}
+.btn-hoanthanh{
+	display: inline-block;
+	background-color: #4dd31d;
+	text-decoration: none;
+	width: 200px;
+	margin-top: -8px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 16px;
+	border-radius: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	justify-content: center;
+}
+
+.filter{
+	margin-left: 100px;
+}

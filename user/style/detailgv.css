@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*ul{
+    list-style: none;
+}*/
+
+a{
+    text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+table{
+    width: 460px;
+}
+
+header{
+/*  position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #65af54;
+    padding: 10px 0px;
+    background: white;
+}
+img{
+    height: 50px;
+}
+
+.banner{
+    /* position: relative; */
+    height: 98px;
+    text-align: center;
+    background-image: url(https://tmarket.edu.vn/images/Group71.png);
+    line-height: 98px;
+    color: #fff;
+    margin-top: 71px;
+}
+
+.detail_gv-video{
+    margin-bottom: 15px;
+}
+
+.dttc-container{
+    background-color: #f9f9fc;
+}
+
+.container_content{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.container_content-left{
+    width: 66.66%;
+}
+
+.container_content-right{
+    width: 33.33%;
+    height: 100px;
+    margin-left: 10px;
+    position: fixed;
+    right: 0;
+}
+
+.video{
+    width: 796px; 
+    height: 398px;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail_gv-card{
+    /* background-color: #fff; */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-body_label{
+    margin: 15px 0;
+}
+
+.detail_gv-card--header{
+    display: flex;
+    /* padding: 10px; */
+}
+
+.card_header-left{
+    width: 150px;
+}
+
+.card_header-right{
+    flex: 1;
+}
+
+.card_header-right--label{
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.card_header-right--value{
+    color: #65af54;
+    font-weight: bold;
+}
+
+.card_header-icon{
+    width: 20px;
+}
+
+.card_header-img{
+    position: relative;
+}
+
+.card_header-img--main{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.card_header-img--sub{
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.card_header-icon-detail{
+    width: 10px;
+    height: 10px;
+    display: block;
+}
+
+
+.card_header-right-midle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_header-right-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.card_header-right-final{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.detail_gv-card--body{
+    border-top: 5px solid #fafafc;
+}
+
+.card-body_btn{
+    text-decoration: none;
+    color: #65af54;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.card-thongke{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-thongke_percent{
+    background-color: #f9f9fc;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    padding-right: 10px;
+    width: 32%;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-courses_content{
+    background-color: #f9f9fc;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    height: 94px;
+    margin-top: 15px;
+}
+
+.card-courses{
+    display: flex;
+    padding: 18px 10px;
+}
+
+.card-courses_first{
+    flex: 1;
+}
+
+.card-courses_second{
+    padding: 10px 15px;
+    background-color: #fbcbca;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.card-courses_second-label,
+.card-courses_three-label{
+    color: #263238;
+    font-size: 14px;
+}
+
+.card-courses_three{
+    padding: 10px;
+    background-color: #dcebdb;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.detail_gv-card{
+
+}
+
+.card-right_date{
+    margin-bottom: 15px;
+}
+
+th, td.active{
+    padding: 5px 10px;
+    background-color: #65af54;
+}
+
+.show-more_btn{
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #65af54;
+}
+
+.show-more_btn:hover{
+    background-color:#3c9b27;
+}
+
+.show-more_btn a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.card_book{
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    text-align: center;
+    border-radius: 10px;
+    background-color: #65af54;
+}
+
+.card_book:hover{
+    background-color:#3c9b27;
+}
+
+.card_book a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}

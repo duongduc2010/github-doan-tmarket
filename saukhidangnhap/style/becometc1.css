@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+
+.logo-market{
+    height: 50px;
+}
+
+.banner{
+    /* position: relative; */
+    height: 98px;
+    text-align: center;
+    background-image: url(https://tmarket.edu.vn/images/Group71.png);
+    line-height: 98px;
+    color: #fff;
+    margin-top: 71px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.title{
+    font-size: 24px;
+    padding: 80px 0 40px 0;
+    text-align: center;
+}
+
+.box-step{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content{
+    background-color: #fafafc;   
+}
+
+.content-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box-form{
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+}
+
+.form-input{
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.input-label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.input-value{
+    height: 48px;
+    width: 364px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    border: 1px solid #efefef;
+    padding-left: 20px;
+    color: #878787;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-input2{
+    justify-content: space-between;
+    width: 825px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.input-value2{
+    height: 48px;
+    width: 100%;
+    border-radius: 10px;
+    background: #f9f9f9;
+    border: 1px solid #efefef;
+    padding-left: 20px;
+    color: #878787;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile{
+    width: 825px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.profile-note{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fafafc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-note_label{
+    width: 60px;
+}
+
+.profile-note_value{
+    list-style:circle;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #878787;
+}
+
+.profile-img_box{
+    align-content: center;
+    height: 160px;
+    width: 160px;
+    background-color: #fafafc;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.profile-img_box-label{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-note2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-note2_label{
+    margin: 20px 0;
+}
+
+.profile-note2_left-list{
+    list-style: circle;
+}
+
+.note-img{
+    height: 80px;
+    width: 80px;
+}
+
+.content .content-container .button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-container .button .btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #65af54;
+    padding: 20px 140px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.content .content-container .button .btn:hover{
+    background-color: #477c3b;
+}

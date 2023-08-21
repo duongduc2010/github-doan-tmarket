@@ -1,0 +1,276 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+.logo-market{
+    height: 50px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #65af54;
+    padding: 10px 0px;
+    background: white;
+    z-index: 3;
+}
+/*header.sticky{
+    background: #566a82;
+    color: black;
+    opacity: 0.9;
+}*/
+.container{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .nav{
+    display: flex;
+}
+.menu .nav .nav-link{
+    text-transform: uppercase;
+    padding: 10px 10px;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+.sub-menu{
+    display: none;
+    background: white;
+    border-radius: 10px;
+}
+
+.sub-menu a{
+    color: black;
+    font-weight: bold;
+}
+.sub-menu li{
+    margin-top: -5px;
+    margin-left: 0px;
+    border-bottom: 1px solid #65af54;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    min-width: 250px;
+    display: block;
+    line-height: 30px;
+}
+
+
+.menu .nav .nav-item:hover .sub-menu {
+    position: absolute;
+    display: block;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    background-color: #f9f9fc;
+
+}
+.logo{
+    height: 50px;
+}
+
+.menu .nav .nav-item:hover .sub-menu {
+    position: absolute;
+    display: block;
+}
+
+
+.nav-item.dropdown{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.nav-item.dropdown img{
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.nav-item.dropdown .dropbtn{
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.dropbtn label{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 11.5pt;
+    color: black;
+    cursor: pointer;
+}
+.menuicon{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 15px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 8px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -8px) rotate(45deg);
+}
+
+/*.dropdown {
+  position: relative;
+  display: inline-block;
+}*/
+
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  border-radius: 10px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #65af54;
+    color:white;
+}
+
+.show{
+    display: block;
+}
+
+
+
+
+#content .timgv img{
+    width: 100%;
+    height: 595px;
+}
+
+.timgv input{
+    font-family: "Lexend" !important;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: auto;
+    font-size: 15pt;
+    padding: 5px 15px;
+    height: 50px;
+    margin-top: 400px;
+    margin-left: 300px;
+    background-color: #e45422;
+    color:white;
+    border: 2px solid #f15a25;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.timgv input:hover {
+    background-color: #f15a25;
+}
+
+.banner{
+    /* position: relative; */
+    height: 98px;
+    text-align: center;
+    background-image: url(https://tmarket.edu.vn/images/Group71.png);
+    line-height: 98px;
+    color: #fff;
+    margin-top: 71px;
+}
+.title{
+    font-size: 24px;
+    padding: 80px 0 40px 0;
+    text-align: center;
+}
+
+.box-step{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content{
+    background-color: #fafafc;   
+    padding-bottom: 80px;
+}
+
+.content-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.box-form{
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+
+.box-form_content{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding-top:50px;
+}
+
+.content-text{
+    padding: 20px;
+    font-size: 16px;
+}
+
+.box-form_content-dot{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.dot-text{
+    color: #65af54;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

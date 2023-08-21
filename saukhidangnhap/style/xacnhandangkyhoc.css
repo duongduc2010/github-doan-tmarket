@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height: 50px;
+}
+img{
+    height: 50px;
+}
+
+
+.slogan{
+    background-image: url(https://tmarket.edu.vn/images/Group71.png);
+    height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.slogan label{
+   color:white;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+#content{
+    background-color: #fafafc;
+    padding-bottom: 50px;
+}
+
+.noidungchinh{
+    width: 780px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+.box{
+    height: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.label-top{
+    width: fit-content;
+    border-bottom: 1px solid #65af54;
+}
+
+.label-bottom{
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 14px; 
+}
+
+.label-bottom-left{
+    font-weight: bold;
+    color: #65af54;
+}
+
+.box-icon{
+    font-size: 20px;
+}
+
+.qr{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.qr-code{
+    height: 300px;
+    width: 300px;
+}
+
+.qr-description{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btn-xacnhan{
+    background-color: #65af54;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+}

@@ -1,0 +1,109 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+ul,li{
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+}
+
+.banner{
+    /* position: relative; */
+    height: 98px;
+    text-align: center;
+    background-image: url(https://tmarket.edu.vn/images/Group71.png);
+    line-height: 98px;
+    color: #fff;
+    margin-top: 71px;
+}
+
+body{
+    background-color: #fafafc;
+}
+
+.content-container{
+    width: 750px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin:60px auto 110px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 0 #00000040;
+    padding: 40px;
+}
+.logo img{
+    height: 50px;
+}
+
+.title-post{
+    margin-bottom: 27px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box-icon{
+    display: flex;
+}
+
+.icon{
+    text-align: center;
+}
+
+.icon-text{
+    margin-top: 19px;
+    font-size: 16px;
+}
+
+.checkbox-type{
+    height: 24px;
+    width: 24px;
+}
+
+.container-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title2{
+    padding: 31px 10px 13px 10px;
+    color: #65af54;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text{
+    font-size: 16px;
+    color: #878787;
+    border-radius: 10px;
+    background-color: #effdec;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    width: 320px;
+}
+
+.button-next{
+    text-align: center;
+    width: 318px;
+    height: 58px;
+    background-color: #65af54;
+    text-align: center;
+    font-size: 20px;
+    line-height: 58px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}

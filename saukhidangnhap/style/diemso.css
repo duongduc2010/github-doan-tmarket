@@ -1,0 +1,19 @@
+.diem{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.back{
+    background-color: #65af54;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    }
+
+.back:hover{
+    background-color: #4a9e37;
+    color: #fff;
+}

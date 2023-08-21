@@ -1,0 +1,460 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*ul{
+	list-style: none;
+}*/
+
+a{
+	text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+
+header{
+/*	position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #65af54;
+	padding: 10px 0px;
+	background: white;
+}
+
+
+.slogan{
+	 background-image: url(https://tmarket.edu.vn/images/Group71.png);
+	height: 80px;
+	  display: flex;
+ 	 align-items: center;
+ 	 justify-content: center;
+}
+.slogan label{
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+#content .timgv img{
+	width: 100%;
+	height: 595px;
+}
+
+.timgv input{
+	font-family: "Lexend" !important;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: auto;
+	font-size: 15pt;
+	padding: 5px 15px;
+	height: 50px;
+	margin-top: 400px;
+	margin-left: 300px;
+	background-color: #e45422;
+	color:white;
+	border: 2px solid #f15a25;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+.timgv input:hover {
+	background-color: #f15a25;
+}
+
+.muonhoc {
+	padding: 100px 0px;
+}
+.muonhoc h1{
+	display: flex;
+	justify-content: center;
+	
+	font-weight: bold;
+}
+.muonhoc ul{
+	display: flex;
+	justify-content: center;
+}
+.muonhoc .nav-item{
+	background-color: #295F2D;
+	margin: 30px 40px 0px 40px;
+	width: 270px;
+	border: 1px solid white;
+	border-radius: 7px;
+}
+.muonhoc .nav-link{
+	font-size: 14pt;
+	padding: 10px 25px;
+	color: #FFE67C;
+	
+}
+.cacbuocsd h1{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+.cacbuocsd img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	width: 1000px;
+}
+.dsgv .gv .giaovien{
+	background-color: #fafafc;
+	box-shadow: 5px 5px 5px 5px #888888;
+	width: 350px;
+	height: 400px;
+}
+.dsgv .gv .giaovien h6, .dsgv .gv .giaovien h7, .dsgv .gv .giaovien video{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.dsgv .gv{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.dsgv .gv .giaovien{
+	margin-left: 40px;
+	
+}
+.dsgv{
+	font-family: "Lexend" !important;
+}
+.dsgv ul{
+	display: flex;
+}
+
+.dsgv ul .cot2{
+	margin-left: 110px;
+}
+
+.dsgv img{
+	border-radius: 30px;
+}
+.dsgv h7{
+	margin-left: 55px;
+	font-size: 14pt;
+}
+
+.dsgv h6{
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.dsgv .gv .giaovien li{
+	font-size: 14pt;
+}
+.dsgv .gv .giaovien .vnd li{
+	font-size: 14pt;
+	color: #ec1c24;
+	font-weight: bold
+}
+
+.dsgv .gv .giaovien .vnd .cot2{
+	right: 30px;
+}
+
+
+.dsgv .product__pagination {
+	padding-top: 25px;
+	text-align: center;
+}
+
+.dsgv .product__pagination a {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #111111;
+	height: 30px;
+	width: 30px;
+
+	border: 1px solid transparent; /*transparent: trong suốt;*/
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+}
+
+.dsgv .product__pagination a.active {
+	border-color: #111111;
+}
+
+.dsgv .product__pagination a:hover {
+	border-color: #111111;
+}
+
+/*.product__pagination span {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #111111;
+	padding-left: 10px;
+	padding-right: 15px;
+}*/
+
+.cacbuocsd{
+	margin-top: 100px;
+}
+.huongdansd{
+	padding: 50px 0px;
+}
+.huongdansd h1{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+.huongdansd .danhcho{
+	display: flex;
+	justify-content: center;
+	
+}
+.huongdansd .hocvien{
+	margin: 20px 100px 0px 100px;
+	width: 450px;
+}
+.huongdansd .giaovien{
+	margin: 20px 100px 0px 100px;
+	width: 450px;
+}
+.huongdansd h6{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+
+}
+.huongdansd .vien{
+	margin-left: 175px;
+	margin-bottom: 20px;
+	border-bottom:2px solid #65af54;
+	width: 100px;
+}
+.huongdansd p{
+	text-align: center;
+	font-size: 11pt;
+}
+.huongdansd .nut{
+	display: flex;
+	justify-content: center;
+}
+.huongdansd .nut .ct{
+	padding: 9px 30px;
+	color: #65af54;
+	border: 2px solid #65af54;
+	border-radius: 9px;
+	font-size: 11pt;
+	margin-right: 15px;
+	box-shadow: 0px 3px #888888; 
+}
+.huongdansd .nut .vd{
+	padding: 9px 30px;
+	color: #ffffff;
+	background-color: #65af54;
+	border-radius: 9px;
+	font-size: 11pt;
+	box-shadow: 0px 3px #888888;
+}
+
+.vechungtoi {
+	padding: 50px 100px;
+	background-color: #faf8eb;
+
+}
+
+.vechungtoi h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	padding: 40px 0px;
+}
+.vechungtoi p{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #878787;
+	padding: 0px 80px;
+	font-size: 11pt;
+}
+.vechungtoi .soluong{
+	display: flex;
+	justify-content: center;
+}
+.vechungtoi .soluong .cot{
+	padding: 20px 100px;
+}
+.vechungtoi .soluong .cot h2{
+	display: flex;
+	justify-content: center;
+	color: #6eb54d;
+	font-size: 50pt;
+	font-weight: bold;
+}
+.vechungtoi .soluong .cot h6{
+	display: flex;
+	justify-content: center;
+
+}
+
+.baihoctgv{
+	background-color: #faf8eb;
+	padding-top: 200px;
+}
+.baihoctgv .hang{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px;
+}
+.baihoctgv .hang .gth1{
+	width: 650px;
+	padding-top: 100px;
+	padding-right: 100px;
+}
+.baihoctgv .hang .gth2{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.baihoctgv .hang h2{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.baihoctgv .hang p{
+	color: #878787;
+	font-size: 11pt;
+}
+.baihoctgv .hang a{
+	color: #6eb54d;
+	font-size: 11pt;
+}
+
+.baihoctgv .hang a:hover{
+	color: #008000;
+}
+.baihoctgv .hang img{
+	width: 600px;
+	height: 600px;
+}
+.huongdansd .nut .vd:hover{
+	background-color: blue;
+}
+
+.chtg{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.cauhoitg{
+	display: flex;
+}
+.cauhoitg .cot1{
+	padding:20px 50px 20px 200px; 
+}
+.cauhoitg .cot2{
+	padding:20px 200px 20px 50px; 
+}
+.cauhoitg h6{
+	font-weight: bold;
+}
+.cauhoitg h7{
+	font-weight: bold;
+	color: #878787;
+	font-size: 12pt;
+
+}
+
+.cauhoitg p{
+	color: #878787;
+	text-align: justify;
+}
+#chtg{
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #65af54;
+	padding: 15px 100px;
+	font-weight: bold;
+	border: 0px solid #e0e0e0;
+	border-radius: 10px;
+	color: white;
+	font-size: 13pt;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	box-shadow: 0px 5px #e0e0e0;
+}
+
+
+.gopy{
+	
+	position: relative;
+}
+
+.gopy img{
+	width: 100%;
+	height: 700px;
+
+
+}
+.gopy .feedback{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 200px;
+	display: flex;
+}
+
+.gopy .feedback label{
+	font-family: Verdana;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25pt;
+	font-weight: bold;
+	color:white;
+}
+.gopy .feedback fieldset{
+	margin-top: 20px;
+}
+.gopy .feedback fieldset input{
+	width: 550px;
+	height: 50px;
+	border-radius: 10px;
+}
+.gopy .feedback fieldset textarea{
+	width: 550px;
+	height: 130px;
+	border-radius: 10px;
+}
+.gopy .feedback .submit{
+	margin-top: 30px;
+	margin-left: 150px;
+	padding: 10px 70px;
+	width: auto;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	font-size: 16pt;
+	font-weight: bold;
+	background-color: #008943;
+}
+.gopy .feedback .submit:hover{
+	background-color: blue;
+}
+.gopy .feedback img{
+	margin-left: 150px;
+	width: 550px;
+	height: 500px;
+	border-radius: 60px;
+	box-shadow: 10px 10px 5px #25495f;
+}
+img{
+	height: 50px;
+}

@@ -1,0 +1,624 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*ul{
+	list-style: none;
+}*/
+
+a{
+	text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+
+
+.slogan{
+	 background-image: url(https://tmarket.edu.vn/images/Group71.png);
+	height: 80px;
+	  display: flex;
+ 	 align-items: center;
+ 	 justify-content: center;
+}
+.slogan label{
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.noidungchinh{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.noidungchinh .cot.mot{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	width: 300px;
+	height: 1115px;
+	border-radius: 10px;
+	margin-left: 150px;
+	box-shadow: 10px 10px 10px 5px #aaaaaa;
+}
+.noidungchinh .cot.mot img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+.noidungchinh .cot.mot p{
+
+	display: flex;
+	justify-content: center;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.noidungchinh .cot.mot h5{
+	padding: 15px 15px;
+	color: white;
+	background-color: #65af54;
+}
+
+.noidungchinh .cot.mot img{
+	height: 108px;
+	border-radius: 0;
+}
+
+.noidungchinh .cot.mot .vi{
+	display: flex;
+	justify-content: space-between;
+}
+.noidungchinh .cot.mot .vi .cot1{
+	margin-left: 20px;
+}
+
+.noidungchinh .cot.mot .vi .cot2{
+	margin-right: 20px;
+}
+.noidungchinh .cot.mot .napngay{
+	margin-left: 20px;
+	text-align: center;
+	color: black;
+	padding: 10px 100px;
+	border: 2px solid #ebebeb;
+	border-radius: 10px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px #aaaaaa;
+	font-weight: bold;
+}
+
+.noidungchinh .cot.mot .hotro{
+	padding: 15px;
+	margin-top: 40px;
+	width: 299px;
+	padding-left: 10px;
+	border-top: 4px solid #ebebeb;
+	border-bottom: 4px solid #ebebeb;
+}
+
+.noidungchinh .cot.mot .hotro a{
+	color: #65af54;
+}
+.noidungchinh .cot.mot .cauhoi.mot, .noidungchinh .cot.mot .cauhoi.hai{
+	margin-top: 10px;
+	padding: 10px;
+	border-bottom: 4px solid #ebebeb;
+}
+.noidungchinh .cot.mot .cauhoi.ba{
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.noidungchinh .cot.mot .dangxuat{
+	border-radius: 6px;
+	background-color: #65af54;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.noidungchinh .cot.mot .dangxuat a{
+	color: #ffffff;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+.noidungchinh .cot.hai{
+	margin-top: 85px;
+	margin-bottom: 70px;
+	width: 850px;
+	height: 1115px;
+	border-radius: 10px;
+	margin-right: 150px;
+	box-shadow: 10px 10px 10px 5px #aaaaaa;
+}
+
+
+.noidungchinh .cot.hai h2{
+	border-bottom: 1px solid black;
+	padding: 20px 10px;
+	font-size: 15pt;
+	font-weight: bold;
+
+}
+.noidungchinh .cot.hai .dskh{
+	margin-top: 20px;
+}
+
+
+
+.cot.hai .chitiet img{
+	border-radius: 100px; 
+	height: 108px;
+	margin: 50px 350px;
+}
+
+.cot.hai .chitiet .formchitiet{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cot.hai .chitiet .formchitiet .chitietcot.mot{
+	margin-left: 50px;
+}
+
+.cot.hai .chitiet .formchitiet .chitietcot.mot label{
+	font-size: 13pt;
+	padding: 15px 0px;
+}
+
+.cot.hai .chitiet .formchitiet .chitietcot.mot input{
+	width: 350px;
+}
+
+.cot.hai .chitiet .formchitiet .chitietcot.hai{
+	margin-right: 50px;
+}
+
+.cot.hai .chitiet .formchitiet .chitietcot.hai label{
+	font-size: 13pt;
+	padding: 15px 0px;
+}
+
+.cot.hai .chitiet .formchitiet .chitietcot.hai input{
+	width: 350px;
+}
+
+.cot.hai .chitiet .capnhattt{
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 17px 90px;
+	background-color: #65af54;
+	color: white;
+	border:none;
+	font-weight: bold;
+	font-size: 12pt;
+	border-radius: 10px;
+}
+.cot.hai .chitiet .capnhattt:hover{
+	color: #008010;
+}
+.quatrinh{
+	margin-bottom: 50px;
+}
+.quatrinh .quatrinhhoctap {
+	margin-left: 520px;
+	width: 850px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px #aaaaaa;
+}
+
+
+.quatrinh .quatrinhhoctap h5{
+	padding: 17px 17px;
+	border-bottom: 3px solid #65af54;
+}
+.quatrinh .quatrinhhoctap .chitiet{
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px;
+}
+
+.quatrinh .quatrinhhoctap .chitiet .cot{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px 60px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px #aaaaaa;
+}
+
+.quatrinh .quatrinhhoctap .chitiet .cot h6{
+	display: flex;
+	justify-content: center;
+}
+
+.quatrinh .quatrinhhoctap .chitiet .cot.mot{
+	margin-right: 10px;
+
+}
+.quatrinh .quatrinhhoctap .chitiet .cot.hai{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.quatrinh .quatrinhhoctap .chitiet .cot.ba{
+	margin-left: 10px;
+
+}
+
+
+.quatrinh .vicuatoi {
+	margin-top: 30px;
+	margin-left: 520px;
+	width: 850px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px #aaaaaa;
+}
+
+
+.quatrinh .vicuatoi h5{
+	padding: 17px 17px;
+	border-bottom: 3px solid #65af54;
+}
+
+.quatrinh .vicuatoi .chitiet{
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px;
+}
+
+.quatrinh .vicuatoi .chitiet .cot{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px 60px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px #aaaaaa;
+}
+
+.quatrinh .vicuatoi .chitiet .cot h6{
+	display: flex;
+	justify-content: center;
+}
+
+.quatrinh .vicuatoi .chitiet .cot.mot{
+	margin-right: 10px;
+
+}
+.quatrinh .vicuatoi .chitiet .cot.hai{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.quatrinh .vicuatoi .chitiet .cot.ba{
+	margin-left: 10px;
+
+}
+
+
+
+.dsgv{
+	position: relative;
+}
+.dsgv .bg{
+	width: 1220px;
+	height: 800px;
+	margin-left: 150px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	
+}
+.dsgv .tgv{
+	position: absolute;
+	padding: 15px 10px;
+	margin-top: 20px;
+	margin-left: 180px;
+	border-top: 2px solid #b1d2c7;
+	color: white;
+}
+.dsgv .gv{
+	position: absolute;
+	padding-top: 30px;
+	border-top: 2px solid #b1d2c7; 
+	margin-top: 150px;
+	margin-left: 155px;
+}
+
+
+.dsgv .gv .giaovien{
+	background-color: #fafafc;
+	box-shadow: 5px 5px 5px 5px #888888;
+	width: 350px;
+	height: 485px;
+}
+.dsgv .gv .giaovien h6, .dsgv .gv .giaovien h7, .dsgv .gv .giaovien video{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.dsgv .gv{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.dsgv .gv .giaovien{
+	margin-left: 40px;
+	
+}
+.dsgv{
+	font-family: "Lexend" !important;
+}
+.dsgv ul{
+	display: flex;
+}
+
+.dsgv ul .cot2{
+	margin-left: 110px;
+}
+
+.dsgv img{
+	border-radius: 30px;
+}
+.dsgv h7{
+	margin-left: 55px;
+	font-size: 14pt;
+}
+
+.dsgv h6{
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.dsgv .gv .giaovien li{
+	font-size: 14pt;
+}
+.dsgv .gv .giaovien .vnd li{
+	font-size: 14pt;
+	color: #ec1c24;
+	font-weight: bold
+}
+
+.dsgv .gv .giaovien .vnd .cot2{
+	right: 30px;
+}
+
+
+.dsgv .product__pagination {
+	position: absolute;
+	padding-top: 25px;
+	text-align: center;
+	margin-top: 700px;
+	margin-left: 650px;
+}
+
+.dsgv .product__pagination a {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	height: 30px;
+	width: 30px;
+
+	border: 1px solid transparent; /*transparent: trong suốt;*/
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+}
+
+.dsgv .product__pagination a.active {
+	border-color: #ffffff;
+}
+
+.dsgv .product__pagination a:hover {
+	border-color: #ffffff;
+}
+img{
+	height: 50px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+.footer-distributed{
+	background: #566a82;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  #ffffff;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ffffff;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color:  #ffffff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+/*@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+/* Tối ưu giao diện trên máy tính và điện thoại */
+/*@media screen and (max-width: 600px) {
+form{
+  width: 25rem;
+}
+}
+
+@media screen and (max-width: 400px) {
+form{
+  width: 20rem;
+}
+}*/*/

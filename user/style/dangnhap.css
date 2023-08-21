@@ -1,0 +1,219 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*ul{
+	list-style: none;
+}*/
+
+a{
+	text-decoration: none;
+}
+body 
+{
+  font-family:sans-serif; 
+  font-size: 10pt;
+}
+
+h1{
+    text-align: center;
+}
+h3 {
+	font-weight: bold;
+}
+/*.menu{
+	margin-bottom: 10px;
+	display: flex;
+}
+.menu .logo{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.menu .logo .logo-market{
+	height: 30px;
+	margin-bottom: : 10px;
+	margin-right: 170px;
+}
+.menu .nav .nav-item{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.menu .nav .nav-item .nav-link{
+	color: black;
+}
+.menu .nav .nav-item .nav-link .logo-market{
+	height: 30px;
+	margin-bottom: : 10px;
+	margin-right: 10px;
+}
+.menu .nav .nav-item:hover .nav-link{
+	color: #65af54;
+}
+.menu .nav li{
+	position: relative;
+}
+.menu .nav .nav-item ul.sub-menu{
+	position: absolute;
+	background: white;
+	padding: 20px 0px;
+	list-style: none;
+	width: 249px;
+	border-radius: 15px; 
+	display: none;
+}
+.menu .nav .nav-item:hover ul.sub-menu{
+	display: block;
+}
+.menu .nav .nav-item ul.sub-menu li{
+	padding: 6px;
+}
+.menu .nav .nav-item ul.sub-menu li a{
+	padding: 10px 30px;
+	border-bottom: 1px solid #65af54;
+	text-decoration: none;
+	color: black;
+}
+.menu .nav .nav-item ul.sub-menu li:hover a{
+	color: #65af54;
+}
+
+.menu .nav .nav-item ul.sub-menu2{
+	position: absolute;
+	background: white;
+	padding: 20px 0px;
+	list-style: none;
+	width: 148px;
+	border-radius: 15px; 
+	display: none;
+}
+.menu .nav .nav-item:hover ul.sub-menu2{
+	display: block;
+}
+.menu .nav .nav-item ul.sub-menu2 li{
+	padding: 6px;
+}
+.menu .nav .nav-item ul.sub-menu2 li a{
+	padding: 10px 30px;
+	border-bottom: 1px solid #65af54;
+	text-decoration: none;
+	color: black;
+}
+.menu .nav .nav-item ul.sub-menu2 li:hover a{
+	color: #65af54;
+}*/
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: #f5f6f9;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+    position: relative;
+}
+label{
+	color: black;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    background-color: #65af54;
+    color: white;
+    padding: 14px 20px;
+    border: solid 2px gray;
+    border-radius: 10px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+	background-color: white;
+	border: solid 2px #65af54;
+	border-radius: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+    color: black;
+}
+.slogan{
+	 background-image: url(https://tmarket.edu.vn/images/Group71.png);
+	height: 80px;
+	  display: flex;
+ 	 align-items: center;
+ 	 justify-content: center;
+ 	 margin-bottom: 20px;
+}
+.slogan label{
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.headingsContainer{
+    text-align: center;
+    color: black;
+}
+
+.headingsContainer p{
+    color: black;
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpassword a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+  }
+
+.forgotpassword a{
+	color: #65af54;
+}
+
+.forgotpassword a:link
+{
+	text-decoration: none;
+}
+.register 
+{ 
+	color: black;
+	text-align: center;
+}
+
+.register a
+{
+	color: #65af54;
+}
+
+.register a:link
+{
+	text-decoration: none;
+}
+img{
+	height: 50px;
+}
